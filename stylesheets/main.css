@@ -93,6 +93,11 @@ body.default {
     width: 75%;
     margin: auto;
     margin-top: 150px;
+    background-image: url('../assets/sail.png');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-attachment: fixed;
+    background-position: 57.5% 675px;
 }
 
 a:link, a:visited{
@@ -227,9 +232,9 @@ nav li:hover{
 }
 
 .hm-block{
-    margin-bottom: 600px;
-    background-position: right;
+    margin-bottom: 400px;
+    background-position: right top;
     background-repeat: no-repeat;
-    min-height: 300px;
+    min-height: 500px;
     
 }
