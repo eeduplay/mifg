@@ -45,3 +45,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+
+body.default {
+  background-color: #0E1B2E;
+  color: white;
+}
