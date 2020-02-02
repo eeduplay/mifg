@@ -74,3 +74,13 @@ a:hover, a:active {
   text-decoration: none;
   display: inline-block;
 }
+
+.square {
+  position: relative;
+  height: 50px;
+  width: 1000px;
+  background-color: white;
+  border-bottom-left-radius: 25px;
+  top: -200px;
+  right: -500px;
+}
