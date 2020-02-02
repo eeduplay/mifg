@@ -53,13 +53,13 @@ body.default {
 }
 
 a:link, a:visited{
-  background-color:white;
   color:black;
-  padding:15px 25px;
+  padding:15px 35px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
+
 
 a:hover, a:active {
   background-color: white;
@@ -73,14 +73,21 @@ a:hover, a:active {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  top: 0%;
+  right: 0%;
 }
 
-.square {
-  position: relative;
-  height: 50px;
-  width: 1000px;
+
+
+nav{
+  float: right;
   background-color: white;
+  width: 66%;
   border-bottom-left-radius: 25px;
-  top: -200px;
-  right: -500px;
+  position: relative;
+
+}
+
+nav li{
+  display: inline-block;
 }
