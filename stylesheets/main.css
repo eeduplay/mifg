@@ -2,6 +2,8 @@
   License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css?family=Saira:200,400,600&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -29,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  font-family: 'Saira', sans-serif;
+  font-weight: 400;
 }
 ol, ul {
   list-style: none;
@@ -50,6 +54,11 @@ table {
 body.default {
   background-color: #0E1B2E;
   color: white;
+  background-image: url(../assets/starsR.png), url(../assets/starsL.png);
+  background-repeat: repeat-y;
+  background-position: right, left;
+  background-size: 350px;
+  /* height: 3000px; */
 }
 
 a:link, a:visited{
@@ -85,7 +94,6 @@ nav{
   width: 66%;
   border-bottom-left-radius: 25px;
   position: relative;
-
 }
 
 nav li{
