@@ -32,7 +32,8 @@ h1{
 }
 
 h2{
-    font-size: 1.2em;
+    font-size: 36pt;
+    font-weight: 600;
 }
 
 h3, h4{
@@ -223,4 +224,12 @@ nav ul li:hover > ul{
 
 nav li:hover{
   cursor: pointer;
+}
+
+.hm-block{
+    margin-bottom: 600px;
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    
 }
