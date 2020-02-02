@@ -139,6 +139,7 @@ nav li{
 
 nav ul li{
   position:relative;
+  padding: 0px 20px;
 }
 
 nav ul li a{
