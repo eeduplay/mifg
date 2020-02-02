@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Saira:200,400,600&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: 'Saira', sans-serif;
+  font-weight: 400;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+body.default {
+  background-color: #0E1B2E;
+  color: white;
+  background-image: url(../assets/starsR.png), url(../assets/starsL.png);
+  background-repeat: repeat-y;
+  background-position: right, left;
+  background-size: 350px;
+  /* height: 3000px; */
+}
+
+a:link, a:visited{
+  color:black;
+  padding:15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+a:hover, a:active {
+}
+
+#rcorners1 {
+  border-bottom-left-radius: 25px;
+  color:black;
+  background: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  top: 0%;
+  right: 0%;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  text-decoration: none; 
+  padding: 0px 20px;
+}
+
+nav{
+  float: right;
+  background-color: white;
+  width: 66%;
+  border-bottom-left-radius: 10px;
+  position: relative;
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav ul li{
+  position:relative;
+  padding: 0px 20px;
+}
+
+nav ul li a{
+  display: block;
+  font-family: arial;
+  font-size: 14px;
+  padding: 22px 14px;
+  text-decoration: none;
+}
+
+nav ul li ul{
+  display: none;
+  position: absolute;
+  background-color: white;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li a{
+  padding: 8px 14px;
+}
+
+nav ul li ul li a:hover{
+  background-color: #f3f3f3;
+}
+
+nav ul li ul li{
+  width: 150px;
+  height: 70px;
+  text-align: center;
+}
+
+
+nav ul li:hover > ul{
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  width: 200px;
+  height: 210px;
+  text-align: center;
+}
+
+nav li:hover{
+  cursor: pointer;
+}
