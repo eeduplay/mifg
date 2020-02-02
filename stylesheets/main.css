@@ -82,26 +82,39 @@ nav{
   float: right;
   background-color: white;
   width: 66%;
-  border-bottom-left-radius: 25px;
+  border-bottom-left-radius: 10px;
   position: relative;
 
 }
 
 nav li{
   display: inline-block;
-  transition-duration: 0.5s;
   text-decoration: none; 
+  padding: 0px 20px;
+}
+
+nav ul li{
+  position:relative;
+}
+
+nav ul li a{
+  display: block;
+  font-family: arial;
+  font-size: 14px;
+  padding: 22px 14px;
+  text-decoration: none;
 }
 
 nav ul li ul{
   display: none;
   position: absolute;
   background-color: white;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
-nav ul li:hover  ul {
+nav ul li:hover ul {
   display: block;
-
 }
 
 nav ul li ul li a{
@@ -113,7 +126,9 @@ nav ul li ul li a:hover{
 }
 
 nav ul li ul li{
-  width: 180px;
+  width: 150px;
+  height: 70px;
+  text-align: center;
 }
 
 
@@ -121,6 +136,9 @@ nav ul li:hover > ul{
   visibility: visible;
   opacity: 1;
   display: block;
+  width: 200px;
+  height: 210px;
+  text-align: center;
 }
 
 nav li:hover{
