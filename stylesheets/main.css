@@ -24,6 +24,20 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+
+h1{
+    font-weight: 600;
+    font-size: 48pt;
+}
+
+h2{
+    font-size: 1.2em;
+}
+
+h3, h4{
+    font-weight: 600;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -56,9 +70,15 @@ body.default {
   color: white;
   background-image: url(../assets/starsR.png), url(../assets/starsL.png);
   background-repeat: repeat-y;
-  background-position: right, left;
+  background-position: right top, left top;
   background-size: 350px;
   /* height: 3000px; */
+}
+
+#main{
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
 }
 
 a:link, a:visited{
@@ -109,6 +129,7 @@ a:hover, a:active {
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+  color: #333333;
 }
 
 .collapsible:after {
